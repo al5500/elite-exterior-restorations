@@ -19,7 +19,7 @@ visibility: hidden;
 width: 100%;
 height: 50%;                                                                     
 margin-top: -140px;                                                              
-float: left;
+/*float: left;*/
 }
 
 div#content {
@@ -48,8 +48,8 @@ height: auto;
 
 .logo_box{
 width: 349px;
-float: left;
-border-right: 1px solid #303030;
+/*float: left;*/
+/*border-right: 1px solid #303030;*/
 height: 280px;
 position: relative;
 }
@@ -60,7 +60,7 @@ position: absolute;
 right: 0;
 text-align:left;
 top: 25%;
-float: left;
+/*float: left;*/
 color: #fff;
 letter-spacing: -1px;
 font-size: 38px;
@@ -73,13 +73,11 @@ margin-bottom: -4px;
 h3{
 font-size: 24px;
 color: #333;
-float: left;
-margin-right: 15px;
-padding-top: 5px;
+display: inline;
 }
 
 .main_box{
-float: left;
+/*float: left;*/
 width: 500px;
 height: 95px;
 padding: 25px;
@@ -88,7 +86,7 @@ padding: 25px;
 form{
 width: 590px;
 padding: 10px 0;
-float: left;
+/*float: left;*/
 background: url(../images/dots.gif) right top repeat-y;
 height: 80px;
 }
@@ -111,20 +109,20 @@ ul.info{
 width: 500px;
 padding: 0;
 margin: 10px 0 0 0;
-float: left;
+/*float: left;*/
 }
 
 ul.info li{
 margin-bottom: 20px;
 clear: both;
-float: left;
+/*float: left;*/
 }
 
 ul.info li p{
 font-size: 13px;
 line-height: 20px;
 color: #fff;
-float: left;
+/*float: left;*/
 margin: 0;
 }
 
@@ -134,14 +132,14 @@ width: 28px;
 height: 28px;
 background: url(../images/social.png) left top no-repeat;
 margin-right: 8px;
-float: left;
+/*float: left;*/
 }
 
 ul.info li p.social a.fb{
 width: 28px;
 height: 28px;
 background: url(../images/social.png) -36px top no-repeat;
-float: left;
+/*float: left;*/
 margin-right: 8px;
 }
 
@@ -149,34 +147,34 @@ ul.info li p.social a.li{
 width: 28px;
 height: 28px;
 background: url(../images/social.png) -72px top no-repeat;
-float: left;
+/*float: left;*/
 }
 
 ul.info li p.social a.tw:hover{
 width: 28px;
 height: 28px;
 background: url(../images/social.png) left bottom no-repeat;
-float: left;
+/*float: left;*/
 }
 
 ul.info li p.social a.fb:hover{
 width: 28px;
 height: 28px;
 background: url(../images/social.png) -36px bottom no-repeat;
-float: left;
+/*float: left;*/
 }
 
 ul.info li p.social a.li:hover{
 width: 28px;
 height: 28px;
 background: url(../images/social.png) -72px bottom no-repeat;
-float: left;
+/*float: left;*/
 }
 
 
 
 .field{
-float: left;
+/*float: left;*/
 background: url(../images/input.png) left top no-repeat;
 width: 425px;
 height: 21px;
@@ -187,7 +185,7 @@ border: none;
 }
 
 .submit_butt{
-float: left;
+/*float: left;*/
 background: url(../images/input.png) right top no-repeat;
 width: 109px;
 height: 41px;
@@ -202,7 +200,7 @@ background: url(../images/input.png) right bottom no-repeat;
 .connect{
 width: 145px;
 padding-left: 20px;
-float: left;
+/*float: left;*/
 padding-top: 20px;
 }
 
@@ -212,9 +210,8 @@ margin-right: 5px;
 
 .logo{
   width: 100%;
-  margin-top: 1.5em;
 }
 
 .phone-icon{
-  margin-top: 5px;
+  margin-top: 15px !important;
 }
