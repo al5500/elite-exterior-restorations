@@ -116,3 +116,18 @@ margin: 0;
 #img-box {
   border-right: 1px solid #303030;
 }
+
+li{
+  background-color: black !important;
+}
+
+.thumb{
+  width: 20%;
+  /*border-right: 1px solid white;*/
+  /*padding-right: 15px;*/
+}
+
+.white-text{
+  color: white;
+  font-size: 0.8rem;
+}
