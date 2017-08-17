@@ -113,7 +113,7 @@ margin: 0;
   margin-top: 15px !important;
 }
 
-#img-box {
+.img-box {
   border-right: 1px solid #303030;
 }
 
@@ -130,4 +130,9 @@ li{
 .white-text{
   color: white;
   font-size: 0.8rem;
+}
+
+.pics{
+  width: 50%;
+  padding: 30px;
 }
